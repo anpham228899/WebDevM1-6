@@ -1,0 +1,37 @@
+body {
+    background-color: burlywood;
+}
+.heading {
+    text-align: center;
+    margin: 1px solid grey;
+}
+h1 {
+    font-size: 16px;
+    color:blueviolet;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left {
+    margin-left: 5px;
+}
+.right {
+    background-color: aquamarine;
+    margin-left: 5px;
+}
+.right h3 {
+    font-size: 14px;
+    color:blueviolet;
+}
+.right dt {
+    font-style: bold;
+    color:blueviolet;
+    font-size:14px;
+}
+.right a{
+    text-decoration:none;
+}
+.right a:hover{
+    text-decoration:underline;
+}

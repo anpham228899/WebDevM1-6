@@ -1,0 +1,25 @@
+#customers {
+    font-family: arial;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+th {
+    color: #ffffff;
+    background-color: #a7c942;
+    padding:3px 7px 2px 7px;
+    font-style: bold;
+    font-size: 16px;
+    text-align:left;
+    border: 1px solid #98bf21;
+}
+td {
+    border: 1px solid #98bf21;
+    text-align: left;
+}
+tr:nth-child(2n) {
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background: #e3faa0;
+}

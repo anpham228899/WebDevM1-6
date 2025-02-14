@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: -15px;
+    letter-spacing: 5px;
+}
+h2 {
+    text-align: left;
+    background-color: red;
+    color: white;
+    border: 2px solid yellow;
+    font-size: 18px;
+}
+h2 a {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+h2 a:hover {
+    text-transform:uppercase;
+    font-weight:bold;
+}
+p {
+    text-align: center;
+    font-size: 13px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.right {
+    flex: 3;
+    padding: 20px;
+}
+.left {
+    flex: 1;
+    padding-right: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
